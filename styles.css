@@ -1,0 +1,14 @@
+#myCarousel{
+    padding: 50px;
+    padding-left: 200px;
+    align-items: center;
+    background-color: black;
+}
+
+body{
+    background-color: black !important;
+}
+
+.card-text{
+    font-weight: bold;
+}
