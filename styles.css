@@ -1,14 +1,28 @@
-#myCarousel{
-    padding: 50px;
-    padding-left: 200px;
-    align-items: center;
-    background-color: black;
-}
-
 body{
-    background-color: black !important;
+    background-color: rgb(32, 32, 32) !important;
 }
 
-.card-text{
-    font-weight: bold;
+.carousel-inner > .item > img{
+    margin: auto;
+    width:100px;
+}
+
+.carousel-inner{
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.m-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card{
+    margin:10px;
 }
